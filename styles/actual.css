@@ -1,0 +1,160 @@
+.actual {
+    margin: 0 auto;
+    max-width: 1521px;
+    padding-left: 332px;
+    padding-right: -288px;
+    padding-top: 63px;
+}
+
+.actual h1 {
+    font-size: 50px;
+    white-space: nowrap;
+    margin-left: -169px;
+}
+
+.highlight9 {
+    color: rgb(222, 25, 25);
+}
+
+.actual_arrow {
+    display: none;
+}
+
+.actual_cards {
+    margin-left: -53px;
+    margin-right: 195px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.cards_item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.cards_item {
+    height: 100%;
+    margin-left: -58px;
+}
+
+.cards_item .card {
+    height: 100%;
+    margin-left: -58px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 0px rgba(146, 146, 146, 0.2);
+    background: rgb(42, 41, 45);
+    width: 335px;
+    height: 483px;
+    background-color: rgb(42, 41, 45);
+}
+
+.card_icon {
+    height: 78px;
+}
+
+.card_icon img {
+    height: 100%;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    flex-grow: 1;
+    margin-top: -12px;
+}
+
+.card_title {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.card_descr {
+    margin: 0;
+    margin-bottom: 15px;
+    width: 280px;
+    font-size: 20px;
+}
+
+.card_btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    background: rgb(222, 25, 25);
+    width: 286.37px;
+    height: 53.79px;
+    margin-top: 44px;
+}
+
+
+/* @media(max-width:376px) {
+    .actual {
+        max-width: 376px;
+        padding-top: 34px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .actual h1 {
+        font-size: 20px;
+        margin-left: 84px;
+    }
+    .actual_cards {
+        margin-left: 284px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        flex-direction: column;
+    }
+    .actual_arrow {
+        background-image: url(../img/block_actual/arrow.png);
+        width: 90px;
+        height: 90px;
+    }
+    .cards_item .card {
+        height: 215px;
+        margin-left: -125px;
+        width: 178px;
+        margin-top: 9px;
+    }
+    .card {
+        width: 197px;
+        height: 483px;
+    }
+    .card_content {
+        margin-top: -19px;
+    }
+    .card_icon {
+        height: 78px;
+    }
+    .card_icon img {
+        height: 43px;
+    }
+    .card_title {
+        margin-bottom: 6px;
+        font-size: 15px;
+        margin-top: -16px;
+    }
+    .card_descr {
+        margin: 0;
+        margin-bottom: 15px;
+        width: 147px;
+        font-size: 12px;
+    }
+    .card_btn {
+        padding: 0px 26px;
+        font-size: 10px;
+        border-radius: 5px;
+        width: 123.37px;
+        height: 28.79px;
+        margin-top: 3px;
+    }
+} */

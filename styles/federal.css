@@ -1,0 +1,160 @@
+.federal {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 126px;
+    padding-right: 122px;
+    padding-top: 100px;
+}
+
+.federal_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: -61px;
+    margin-top: -30px;
+}
+
+.federal_title {
+    margin-left: 48px;
+    font-size: 50px;
+    margin-top: 9px;
+    white-space: nowrap;
+}
+
+.federal_item {
+    display: grid;
+    padding: 17px 0;
+    align-items: center;
+    grid-template: auto auto / 85px 1fr;
+    margin-left: 51px;
+}
+
+.federal_item h1 {
+    font-size: 75px;
+    margin-top: 31px;
+    color: rgb(209, 2, 9);
+}
+
+.federal_item p {
+    font-size: 19px;
+    margin-left: 89px;
+    margin-top: -53px;
+    width: 330px;
+}
+
+.federal_icon img {
+    width: 80%;
+}
+
+.federal_icon {
+    text-align: center;
+    align-self: center;
+    float: left;
+    margin-left: -35px;
+}
+
+.highlight6 {
+    margin-top: -29px;
+    display: block;
+}
+
+.map img {
+    width: 1305px;
+    margin-left: -269px;
+    margin-right: 0;
+}
+
+.map {
+    max-width: 1328px;
+    height: auto;
+    max-height: 748px;
+    left: 0;
+}
+
+.advantages {
+    display: block;
+}
+
+.advantages img {
+    width: 100%;
+    margin-top: -170px;
+    margin-left: 360px;
+}
+
+.advantages h1 {
+    color: white;
+    margin-top: -281px;
+    margin-left: 333px;
+    font-size: 39px;
+    white-space: nowrap;
+}
+
+.highlight7 {
+    color: rgb(209, 2, 9);
+}
+
+
+/* @media(max-width:376px) {
+    .federal {
+        max-width: 376px;
+        padding-top: 55px;
+    }
+    .federal_title {
+        margin-left: 20px;
+        font-size: 18px;
+        margin-top: 13px;
+        white-space: nowrap;
+        margin-left: -63px;
+    }
+    .federal_wrapper {
+        flex-wrap: nowrap;
+        margin-left: 2px;
+        margin-top: -10px;
+    }
+    .federal_item h1 {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .federal_item {
+        margin-left: -59px;
+        margin-top: -60px;
+        display: flex;
+        padding: 24px 0;
+    }
+    .highlight6 {
+        margin-top: -32px;
+        display: block;
+        margin-left: 2px;
+    }
+    .federal_icon {
+        margin-left: 39px;
+        padding: 6px;
+    }
+    .federal_item p {
+        font-size: 12px;
+        margin-left: -37px;
+        margin-top: 91px;
+        width: 80px;
+    }
+    .federal_icon img {
+        width: 57px;
+    }
+    .map img {
+        width: 312px;
+        margin-left: -100px;
+        margin-right: 0;
+        height: 282px;
+        margin-top: -11px;
+    }
+    .advantages img {
+        width: 352px;
+        margin-top: -75px;
+        margin-left: -106px;
+    }
+    .advantages h1 {
+        margin-top: -188px;
+        margin-left: -17px;
+        font-size: 13px;
+    }
+} */

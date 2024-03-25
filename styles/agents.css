@@ -1,0 +1,45 @@
+.agents {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-left: 105px;
+    padding-right: 992.65px;
+}
+
+.agents h1 {
+    white-space: nowrap;
+    font-size: 52px;
+    margin-left: 84px;
+    margin-top: 17px;
+}
+
+.highlight8 {
+    color: rgb(209, 2, 9);
+}
+
+.agents img {
+    margin-left: -212px;
+    /* width: 100%; */
+    width: 1400px;
+    margin-top: -12px;
+    height: auto;
+}
+
+
+/* @media(max-width:376px) {
+    .agents {
+        max-width: 376px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .agents h1 {
+        font-size: 18px;
+        margin-left: -48px;
+        margin-top: 51px;
+        margin-left: 55px;
+    }
+    .agents img {
+        margin-left: 4px;
+        width: 359px;
+        margin-top: -4px;
+    }
+} */

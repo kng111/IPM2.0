@@ -1,0 +1,115 @@
+.header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 2.7vh;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.highlight_header {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.header__logo img {
+    width: 80%;
+    margin-top: -20px;
+}
+
+#menu__toggle {
+    display: none;
+}
+
+.menu__btn {
+    display: none;
+}
+
+.menu__btn span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin-bottom: 5px;
+}
+
+.header__item {
+    margin-right: -1.46vmax;
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 8vmax;
+    font-weight: 600;
+    font-size: 1.25em;
+    margin-top: 49px;
+    margin-left: 223px;
+}
+
+.header__link {
+    color: rgb(57, 53, 53);
+    text-decoration: none;
+}
+
+.arrow {
+    display: inline-block;
+    width: 9px;
+    height: 15px;
+    background-image: url(../img_vacancy/header/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-top: -2px; */
+}
+
+.tel {
+    font-weight: 400;
+    margin-left: 36px;
+    font-size: 1.25em;
+    margin-top: 22px;
+}
+
+@media (max-width: 992px) {
+    .header {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .header__logo {
+        margin-right: auto;
+    }
+    .menu__btn {
+        display: block;
+        margin-left: 0;
+        margin-top: 22px;
+        margin-left: auto;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__list {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .header__item {
+        margin-right: 0;
+    }
+    .tel {
+        margin-left: auto;
+        /* чтобы прижать к правому краю */
+        margin-top: 22px;
+        /* чтобы прижать к верху */
+    }
+    .vacance,
+    .contacts {
+        margin-left: 0;
+    }
+    .nav__arrow {
+        display: none;
+    }
+}
