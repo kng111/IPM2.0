@@ -1,21 +1,14 @@
 .submenu {
     display: none;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.4);
-    /* делаем фон полупрозрачным */
-    backdrop-filter: blur(7px);
-    /* применяем размытие */
+    background-color: white;
+    /* backdrop-filter: blur(7px); */
     z-index: 999;
     border-radius: 10px;
-    /* округляем края */
     padding: 12px;
-    /* добавляем небольшой отступ внутри */
     margin-top: 5px;
-    /* добавляем небольшой отступ сверху */
     width: 200px;
-    /* увеличиваем ширину */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-    /* добавляем объемную тень */
 }
 
 .header__item:hover .submenu {
@@ -24,37 +17,27 @@
 
 .submenu li {
     padding: 10px 0;
-    /* добавляем отступы сверху и снизу */
     list-style: none;
-    /* убираем маркеры списка */
 }
 
 .tel:hover {
     color: red;
 }
 
+.submenu li:hover {
+    color: red;
+}
+
 .submenu a {
-    color: #333;
+    color: red;
     text-decoration: none;
     font-weight: normal;
-    /* сбрасываем жирность текста */
     transition: font-weight 0.3s ease;
-    /* добавляем плавный переход для свойства font-weight */
 }
 
 .submenu a:hover {
-    font-weight: bold;
-    /* устанавливаем жирность текста при наведении */
+    color: red;
 }
-
-
-/* a,
-a:visited {
-    text-decoration: none !important;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 93%;
-    font-weight: 500;
-} */
 
 .arrow {
     display: inline-block;
@@ -157,7 +140,10 @@ a:visited {
     color: rgb(57, 53, 53);
     font-size: 19px;
     margin-top: 10px;
-    /* margin-right: 20px; */
+}
+
+.menu-open .submenu {
+    display: block;
 }
 
 @media (max-width: 1000px) {
@@ -168,10 +154,4 @@ a:visited {
     .nav__arrow {
         display: none;
     }
-    /* .header__list {
-        display: flex;
-        flex-direction: column;
-        margin-left: 0;
-        gap: 2vmax;
-    } */
 }

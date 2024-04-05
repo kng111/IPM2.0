@@ -1,18 +1,17 @@
 .actual {
     padding-top: 100px;
     overflow: hidden;
+    padding-bottom: 100px;
+    margin: auto;
 }
 
 .actual h1 {
     font-size: 314%;
     opacity: 0;
-    /* Устанавливаем начальную непрозрачность */
-    transition: opacity 1s ease;
 }
 
 .actual.h1-visible h1 {
     opacity: 1;
-    /* При добавлении класса .h1-visible устанавливаем полную непрозрачность */
 }
 
 .highlight9 {
@@ -51,7 +50,7 @@
 
 .card:hover {
     transform: scale(1.05);
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.7);
     background-color: rgb(255, 255, 255);
     transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.5s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 1s ease;
 }

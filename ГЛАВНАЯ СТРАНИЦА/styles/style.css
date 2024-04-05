@@ -13,7 +13,8 @@ canvas {
     overflow: hidden;
 }
 
-.container {
+header,
+section {
     max-width: 1230px;
     margin: 0 auto;
 }
