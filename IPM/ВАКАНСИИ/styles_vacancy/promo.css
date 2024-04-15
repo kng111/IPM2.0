@@ -1,0 +1,86 @@
+.promo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: -220px;
+    z-index: -2;
+}
+
+.promo-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* Adjusted to row for a side-by-side layout */
+    align-items: flex-start;
+    /* Align items to the top */
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    /* Center the wrapper */
+}
+
+.promo-wrapper {
+    margin-top: 0;
+    /* Remove any top margin to bring it directly under the header */
+    padding-top: 0;
+    /* Remove any top padding */
+}
+
+.button-vacancy {
+    background-color: rgb(38, 37, 42);
+    color: white;
+    border-radius: 50px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    padding: 21px 69px;
+    /* gap: 20px; */
+}
+
+.button-call {
+    background-color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 21px 79px;
+    text-transform: uppercase;
+}
+
+.button-vacancy .button-arrow {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 48px;
+}
+
+.promo-left {
+    flex-basis: 50%;
+    /* или другой процент/фиксированное значение в зависимости от вашего дизайна */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* Выравнивание контента по левому краю */
+    padding: 0;
+    /* Убедитесь, что нет внутренних отступов */
+    margin: 0;
+    /* Убедитесь, что нет внешних отступов влияющих на позиционирование */
+    background: url('./img_vacancy/promo/telephone background.svg') no-repeat;
+    background-size: contain;
+    /* или 'cover', адаптируйте под размер вашего дизайна */
+    background-position: left top;
+    /* Выравнивание изображения по левому верхнему углу */
+    width: 100%;
+    /* Гарантирует, что контейнер занимает нужную ширину */
+    height: auto;
+    /* Высота контейнера адаптируется к содержимому */
+    background-origin: content-box;
+    /* Устанавливает начальную точку фонового изображения относительно содержимого */
+}
