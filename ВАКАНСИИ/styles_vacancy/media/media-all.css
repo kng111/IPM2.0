@@ -1,0 +1,35 @@
+/* HEADER */
+
+@import url(./media-header.css);
+
+/* ABOUT */
+
+@import url(./media-about.css);
+
+/* CONDITIONS FOR DRIVERS */
+
+@import url(./media-conditionsForDrivers.css);
+
+/* TEST DRIVE   */
+
+@import url(./media-test-drive.css);
+
+/* TABLE */
+
+@import url(./media-table.css);
+
+/* REVIEWS */
+
+@import url(./media-reviews.css);
+
+/* QUESTION AND ANSWER */
+
+@import url(./media-quest-ans.css);
+
+/* RESUME */
+
+@import url(./media-resume.css);
+
+/* FOOTER */
+
+@import url(./media-footer.css);

@@ -1,0 +1,145 @@
+@import url(../reviews.css);
+@media screen and (min-width: 1200px) {
+    .reviews-text {
+        padding: 40px 115px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .reviews-text {
+        padding: 40px 115px;
+    }
+    .reviews-title h1 {
+        font-size: 30px;
+        justify-content: center;
+        white-space: nowrap;
+    }
+    .reviews-title {
+        padding: 0 20px 0 20px;
+    }
+    .reviews-wrapper {
+        padding: 0 90px 0 90px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .reviews-title h1 {
+        font-size: 27px;
+    }
+    .reviews-text {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .reviews-text {
+        padding: 40px 70px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .reviews-title h1 {
+        font-size: 24px;
+    }
+    .reviews-text {
+        font-size: 80%;
+    }
+    .reviews-text {
+        padding: 40px 46px;
+    }
+}
+
+@media screen and (max-width: 706px) {
+    .reviews-title h1 {
+        font-size: 22px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .reviews-wrapper {
+        padding: 0 33px 0 46px;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .reviews-wrapper {
+        padding: 0 33px 0 46px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .reviews-text {
+        font-size: 75%;
+    }
+    .reviews-title img:first-child {
+        margin-right: -33px;
+    }
+    .reviews-title img:last-child {
+        margin-left: -33px;
+    }
+}
+
+@media screen and (max-width: 489px) {
+    .reviews-title h1 {
+        font-size: 20px;
+    }
+    .reviews-text {
+        font-size: 70%;
+        padding: 26px 26px;
+    }
+}
+
+@media screen and (max-width: 429px) {
+    .reviews-item:nth-child(2) {
+        padding-right: 20px;
+    }
+    .reviews-wrapper ul {
+        padding-right: 5px;
+        padding-left: 9px;
+        width: 114%;
+    }
+    .reviews-title h1 {
+        white-space: pre-wrap;
+    }
+    .highlight2 {
+        display: flex;
+        text-align: center;
+    }
+    .reviews-title img:first-child {
+        margin-right: -50px;
+    }
+    .reviews-title img:last-child {
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .reviews-text {
+        font-size: 65%;
+        padding: 16px 16px;
+    }
+    .reviews-text:nth-child(2) {
+        margin-left: -23px;
+    }
+    .reviews-text:first-child,
+    .reviews-text:last-child {
+        margin-right: -20px;
+    }
+    .reviews-item:nth-child(2) {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .reviews-title h1 {
+        font-size: 18px;
+    }
+    .reviews-title img:first-child {
+        margin-right: -39px;
+    }
+    .reviews-title img:last-child {
+        margin-left: -39px;
+    }
+}

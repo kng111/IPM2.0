@@ -1,0 +1,76 @@
+@import url(../test-drive.css);
+@media screen and (max-width: 1200px) {
+    .pretitle h1 {
+        font-size: 30px;
+        padding: 10px;
+    }
+    .video-overlay {
+        font-size: 83%;
+    }
+    .test-drive.line {
+        margin-top: 27px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .video-overlay {
+        font-size: 79%;
+    }
+    .test-drive-descr img {
+        width: 80px;
+    }
+    button img {
+        width: 77px;
+    }
+    .pretitle h1 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .pretitle h1 {
+        font-size: 24px;
+    }
+    button img {
+        max-width: 66px;
+    }
+    .video-overlay {
+        font-size: 72%;
+    }
+    .test-drive-descr img {
+        max-width: 90px;
+        margin-top: -12px;
+    }
+    .test-drive-descr {
+        margin-left: -16px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .video-overlay {
+        font-size: 63%;
+        margin-left: -57px;
+    }
+    .test-drive-descr img {
+        width: 67px;
+    }
+    button img {
+        width: 65px;
+    }
+}
+
+@media screen and (max-width:395px) {
+    .pretitle h1 {
+        font-size: 20px;
+    }
+    button img {
+        width: 46px;
+    }
+    .video-overlay {
+        font-size: 51%;
+        margin-left: -59px;
+    }
+    .test-drive-descr img {
+        width: 58px;
+    }
+}
