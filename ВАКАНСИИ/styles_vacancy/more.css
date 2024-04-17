@@ -1,0 +1,117 @@
+@import url(./media/media-presentation.css);
+.presentation-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.presentation-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1230px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.text-and-buttons {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    padding-right: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    /* font-size: 16px; */
+    border: 1px solid transparent;
+    /* padding: 20px 44px; */
+    margin: 0;
+    white-space: nowrap;
+}
+
+
+/* #downloadButton {
+    border-color: white;
+    color: white;
+} */
+
+
+/* #viewButton {
+    background-color: white;
+    color: black;
+} */
+
+.laptop-with-buttons {
+    align-self: center;
+    max-width: 60%;
+    z-index: 2;
+}
+
+.laptop-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.presentation-descr,
+.buttons-container {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
+    z-index: 2;
+}
+
+.presentation-descr {
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+    z-index: 1;
+    /* margin-bottom: 170px; */
+    padding-left: 20px;
+}
+
+.presentation-descr p {
+    margin: 0;
+    padding: 0;
+    /* font-size: 18px; */
+}
+
+.buttons-container,
+.laptop-with-buttons,
+.text-description p {
+    z-index: 1;
+}
+
+.presentation-descr p {
+    margin: 0;
+    padding: 0;
+}
+
+.triangle-background {
+    position: absolute;
+    bottom: 0;
+    background: no-repeat bottom right;
+    background-size: cover;
+    z-index: -1;
+}
+
+.triangle-background img {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

@@ -1,0 +1,158 @@
+@import url(../more.css);
+@media screen and (min-width: 1200px) {
+    .presentation-descr p {
+        font-size: 18px;
+    }
+    .btn {
+        padding: 20px 44px;
+        font-size: 16px;
+    }
+    .presentation-descr {
+        padding-bottom: 170px;
+    }
+    .text-and-buttons {
+        padding-bottom: 30px;
+    }
+    .buttons-container {
+        flex-direction: column;
+    }
+    #downloadButton {
+        border-color: white;
+        color: white;
+    }
+    #viewButton {
+        background-color: white;
+        color: black;
+    }
+    .presentation-descr,
+    .buttons-container {
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .text-and-buttons {
+        padding-bottom: 30px;
+    }
+    .presentation-descr {
+        padding-bottom: 170px;
+    }
+    .presentation-descr p {
+        font-size: 16px;
+    }
+    .btn {
+        padding: 20px 44px;
+        font-size: 14px;
+    }
+    .laptop-with-buttons {
+        width: 58%;
+    }
+    .buttons-container {
+        flex-direction: column;
+    }
+    #downloadButton {
+        border-color: white;
+        color: white;
+    }
+    #viewButton {
+        background-color: white;
+        color: black;
+    }
+    .presentation-descr,
+    .buttons-container {
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .laptop-with-buttons {
+        width: 53%;
+        padding-top: 78px;
+    }
+    .presentation-descr p {
+        font-size: 15px;
+        width: 382px;
+    }
+    .btn {
+        padding: 20px 28px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .presentation-descr {
+        padding-bottom: 27px;
+        margin-right: 28px;
+    }
+    .presentation-descr p {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 13px;
+    }
+    .presentation-descr,
+    .buttons-container {
+        flex-direction: row;
+    }
+    .presentation-wrapper {
+        flex-direction: column;
+    }
+    #downloadButton {
+        border-color: rgb(45, 39, 39);
+        color: rgb(45, 39, 39);
+    }
+    #viewButton {
+        background-color: #26252A;
+        color: white;
+    }
+    .buttons-container {
+        margin-left: 23px;
+    }
+    .text-and-buttons {
+        /* padding-bottom: 30px; */
+        margin-top: 93px;
+        margin-bottom: -27px;
+    }
+    .laptop-with-buttons {
+        width: 60%;
+        padding-top: 45px;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .presentation-descr p {
+        font-size: 13px;
+    }
+    .btn {
+        font-size: 11px;
+    }
+    .presentation-descr {
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:452px) {
+    .presentation-descr p {
+        width: 270px;
+    }
+    .presentation-descr {
+        margin-right: 96px;
+    }
+    .presentation-descr,
+    .buttons-container {
+        flex-direction: column;
+    }
+    .presentation-descr,
+    .buttons-container {
+        align-items: flex-start;
+    }
+    .text-and-buttons {
+        margin-top: 44px;
+    }
+    .presentation-descr p {
+        width: 184px;
+    }
+    .btn {
+        padding: 18px 26px;
+        font-weight: bold;
+    }
+}

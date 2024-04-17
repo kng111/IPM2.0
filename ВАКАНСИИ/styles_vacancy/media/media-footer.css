@@ -1,0 +1,121 @@
+   /* FOOTER */
+   
+   @import url(../footer.css);
+   @media (min-width: 1200px) {
+       .col:first-child {
+           margin-right: 74px;
+       }
+       .col:nth-child(2),
+       .col:nth-child(3) {
+           margin-left: -15px;
+           margin-top: 20px;
+       }
+       .col:nth-child(3) {
+           margin-right: 159px;
+       }
+       .footer__logo {
+           width: 276px;
+           padding-bottom: 61px;
+       }
+       .copyright {
+           font-size: 13px;
+           margin-bottom: 12px;
+       }
+       .footer_descr a {
+           font-size: 18px;
+       }
+       .footer_descr {
+           width: 329px;
+           font-size: 15px;
+       }
+       .col h3 {
+           font-size: 24px;
+       }
+   }
+   
+   @media (max-width: 1200px) {
+       .footer_triangle {
+           width: 26%;
+       }
+       .copyright {
+           font-size: 10px;
+       }
+       .col:first-child {
+           margin-right: 74px;
+       }
+       .col:nth-child(2),
+       .col:nth-child(3) {
+           margin-left: -15px;
+           margin-top: 20px;
+       }
+       .col:nth-child(3) {
+           margin-right: 159px;
+       }
+       .footer__logo {
+           width: 238px;
+           padding-bottom: 61px;
+       }
+   }
+   
+   @media (max-width: 1000px) {
+       .row {
+           font-size: 90%;
+       }
+       .footer__logo {
+           width: 200px;
+       }
+   }
+   
+   @media (max-width: 821px) {
+       .col:nth-child(3) {
+           margin-right: 66px;
+       }
+   }
+   
+   @media (max-width: 770px) {
+       .row {
+           font-size: 78%;
+       }
+       .footer__logo {
+           width: 192px;
+       }
+   }
+   
+   @media (max-width: 685px) {
+       .col:nth-child(3) {
+           margin-right: 9px;
+       }
+       .copyright {
+           font-size: 9px;
+       }
+   }
+   
+   @media (max-width: 572px) {
+       .col:nth-child(2),
+       .col:nth-child(3) {
+           flex-basis: 100%;
+           margin-left: auto;
+           margin-right: auto;
+       }
+       .copyright {
+           padding-bottom: 9px;
+       }
+       .footer__logo {
+           padding-bottom: 10px;
+       }
+       .row {
+           font-size: 78%;
+           padding-left: 9px;
+           margin-top: -18px;
+       }
+   }
+   
+   @media (max-width: 375px) {
+       .row {
+           font-size: 72%;
+           margin-top: -20px;
+       }
+       .footer__logo {
+           width: 154px;
+       }
+   }

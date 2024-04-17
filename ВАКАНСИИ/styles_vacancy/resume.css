@@ -1,0 +1,82 @@
+@import url(./media/media-resume.css);
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.resume-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    /* padding-right: 200px; */
+}
+
+.resume-image {
+    flex: 1;
+    max-width: 30%;
+}
+
+.resume-image img {
+    width: 100%;
+    padding-bottom: 130px;
+}
+
+.resume-text {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 70%;
+}
+
+
+/* .resume-text h1,
+.resume-text p {
+    width: 100%;
+} */
+
+.resume-text h1 {
+    max-width: 590px;
+    /* Adjust this value as needed */
+    /* Adjust the font size as needed */
+    line-height: 1.2;
+}
+
+.resume-descr {
+    display: flex;
+    flex-direction: column;
+    max-width: 281px;
+    /* margin-left: 289px; */
+    /* padding: 9px; */
+    margin-top: -51px;
+    font-size: 18px;
+}
+
+.resume-button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(222, 25, 25);
+    color: white;
+    /* padding: 10px 20px; */
+    border-radius: 68px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-top: 14px;
+    /* Убираем margin-top, теперь он не нужен благодаря flex */
+}
+
+
+/* .resume-button:hover {
+    background-color: white;
+    color: brown;
+} */
