@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/normalize.min.css">
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/style.css">
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+
+    <title>IPMLogist</title>
+    <!-- MEDIA ALL -->
+    <link rel="stylesheet" href="./styles/media/media-all.css">
+    <!-- Навигация-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/header.css">
+    <!--Главный блок, начало-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/preview.css">
+    <!--О компании-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/about.css">
+    <!-- Статистика-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/statistic.css">
+    <!-- Слайдер-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/picture-slide.css">
+    <!-- Наши принципы-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/principle.css">
+    <!-- Строгие сроки доставки-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/timing.css">
+    <!-- Федеральное покрытие-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/federal.css">
+    <!-- Нам доверили свои грузы-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/agents.css">
+    <!-- Актуальное-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/actual.css">
+    <!-- Новости-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/news.css">
+    <!-- Подвал-->
+    <link rel="stylesheet" href="../ГЛАВНАЯ СТРАНИЦА/styles/footer.css">
+
+
+</head>
+
+
+<!-- Навигация-->
+
+<body>
+    <!-- Навигация-->
+    <header class="header">
+
+        <!-- ВСПЛЫВАЮЩЕЕ МЕНЮ ПРИ ШИРИНЕ 1200PX И МЕНЬШЕ -->
+        <div class="btn-header">
+            <svg id="hamburger-icon" class="menu-icon" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="45" height="45" fill="url(#pattern0_1932_627)"/>
+                <defs>
+                <pattern id="pattern0_1932_627" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_1932_627" transform="scale(0.01)"/>
+                </pattern>
+                <image id="image0_1932_627" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABFRJREFUeAHtnU1u1EAQRgMSKyKuQmBB4AaAIEgJRwqwDoELIM5EgAVIKByAnwVseKiCF217nJ52f0bd7fLK465+7no1Y09iJbWz45sbcANuwA24ATfgBtyAG3ADbqACA8A14CnwFjgDfuLbj86FOTkyR/+llMAT4KP7jxowRweLFQW4CryILsMDQgN/gOfmTl4YL0boOXn/mbQg3WXKqh1uv4ATYB+4Lj1hhTBz0Lk4BX6HogBz91iSVncDH94zzoGbkhM0CAH2AHMUbh8kN/ru21QItk+GFyPyRgJubfikHEWmxYe7r7ZhQU7iszzCDACvQnHAm2wzwPsB9E42dCUA4O7A3Vl26oD9wBNuu9nQlQCA3VAc8D079QGQbODKAHJ/cqAXJM+AF6Qwf14QL0iegcJmy9/QcmBhwpZejtyfHLi0gcL4cn9yYGHCll6O3J8cuLSBwvhyf3JgYcKWXo7cnxy4tIHC+HJ/cmBhwpZejtxfLhB4CHwecip8bTk8SC3gMM/U+aP4XCDwZcio+PX5SFDkwDDXSHh8OBfoBekbjBuPRPRxJP/63T7mwKchp8LXlsP9iK7R8DDPUUDqATkwdQGVx8v9yYGVC05dvtyfHJiaUeXxcn9yYOWCU5cv9ycHpmZUebzcnxxYueDU5cv9yYGpGVUeL/cnB1YuOHX5cn9yYGpGlcfL/cmBlQtOXb7cnxyYmlHl8XJ/cmDlglOXL/cnB6ZmVHm83J8cWLng1OXL/eUC/Ylh32BqQUfxfdys5yH+xDCQOBKceiBgXezOmO8FCSSm+hvFB6y5BfEnhoHEkeDUAwFrVkFSz9davNyfHNia8Ug+cn9yYCSB1obl/uTA1oxH8pH7kwMjCbQ2LPcnB7ZmPJKP3J8cGEmgtWG5PzmwNeORfOT+5MBIAq0Ny/3Jga0Zj+Qj9ycHRhJobVjuTw5szXgkH7k/OTCSQGvDcn9yYGvGI/nI/eUC/Ylh32CkfvHhPs6fGMaN9SNy/fVp//6RY485Cogc8L8x7OlL/pPAkd4+btYnxJ8YBhJHglMPBKyL3dT5a4+X+5MDV1YhuT850AuSZ8ALUpg/L4gXJM9AYbPlb2g5sDBhSy9H7k8OXNpAYXy5PzmwMGFLL0fuTw5c2kBhfLk/ObAwYUsvR+5PDlzaQGF8uT9rQjKAekOXLYsO3Bi4+7bl1OmwDS2P9qejfSQ0ANwbFETS8sh6u4bby/Ckvj9tAHgdilM1BbMmxOFmbfP2ppfhI2YAuL2hbd5htp1LGkt6USbsdsX4Gr6LAU1jya7aB1370PAc1l7U2ozadXL1N/quI5u5sMvUptarjybqN+9w1/U4LIjvb2/geJ71S2Z17butFfWwSfH2y1pfpLk6Bq5cojZvyJq2d9fD9elNy9juGdrL1FTpuhv9kX2NA95t6AaatvQ2oq0jqrkwJ4eSztBTBfDjbsANuAE34AbcgBtwA27ADbgBoYG/llhgIRY4QqkAAAAASUVORK5CYII="/>
+                </defs>
+                </svg>
+
+            <svg id="close-icon" class="menu-icon" width="100" height="100" viewBox="0 0 100 100 " fill="none" xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink ">
+                <rect width="45" height="45" fill="url(#pattern0_1931_625) "/>
+                <defs>
+                <pattern id="pattern0_1931_625 " patternContentUnits="objectBoundingBox " width="1" height="1">
+                <use xlink:href="#image0_1931_625 " transform="scale(0.01) "/>
+                </pattern>
+                <image id="image0_1931_625 " width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAA0xJREFUeAHtnM1uEzEURrsB9mUPvBY/ywoBL4D6EgWeBFjAg8GySB+6yLdKrYTx2Nf2ZHpm4ySd2J/PyUzHUeZeXLBBAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAwNkSkPRU0mtJHyW9lfR8a5OR9CJls4yW9XJrGUPySPog6bfub38kfZb0KGSQhk4sQ8pimQ63X5LeN3S9vbcmGYeTzB9/l/R4VnIbW9K3PFT2fB9S0mkqPzKyuf57akCGSymUYQHtSDn/05ekN8fon3htqJQVMjzuq1lHcdi4kq59NoXtECkVMiz+dRiYWR2lK5ZCF3e7dZVSKcPCXc3iGDauXdpKur1DXf6gi5QGGTaHZ2FgZnYk6VO5h3t7hkppkGGhbmYyDB07XeMb3JotREqjDMswfa3UQ8rXGiOSfkp6UhsofSBqx/7RMnZt5iHvmwFmxphDYEYNMhLQyLGi+EzpZwSoEWNMgddr0J7Aevbdi8cm+u0Brkefm4A1KkQkwMi+Rs1/k+NEgIzoY5NwZoUKWLhNXXjO4tZ13MZPec2ac7+LvihTA6Ugo1TaACnIKJXh+3WUggyHvLbtIAUZayXk+wdKQUYOt/Z5gBRk1MI/9j6EHKMy6bUAGb4+4ShpdRgoAykblIGUWikdjgyX4S2nr1I5A2QgZYMykLIkha/flwgN/HuS0fS7qcZTHf9T3HeEjIO+7C6oJrHe14NsI2U4QI4UJ7Gy7SHDIyDFSRS2PWV4BKQ4iYV2hAyPgBQncaIdKcMjIMVJZO0MGR4BKU4itQnI1N9NpQ9ES4b93LAj6Yt/V7GyNYBh9643StnHLW2pdkherqLES6gMP2gbpNhNn5urzeLzKm65LboY1ZgdKRwwhnPxKKnEUckpyvbpcpo6Fbbi9LWL0hqXqXDLkpShMlzSCin7KD5jE7d6Uws2psjIpFiJqP9t73z/XbRJin3KDje7crmxdcrsSaa1kmXJy4BY5n3JcNhWb0rSy1Ti72qLtUNSbRbLZiX+LOv518hyAbQQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQeIIG/9s+30Y+DyJcAAAAASUVORK5CYII="/>
+                </defs>
+                </svg>
+        </div>
+
+        <nav class="sidebar">
+            <div class="sidebar-logo">
+                <img src="./img/block_header/logo-white.svg" alt="logo">
+            </div>
+            <ul>
+                <li>
+                    <a href="#" class="feat-btn">О НАС
+                      <span class="fas fa-caret-down first"></span>
+                      <div class="nav__arrow arrow"></div>
+                    </a>
+                    <ul class="feat-show">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Автопарк</a></li>
+                        <li><a href="#">Новости</a></li>
+                    </ul>
+                </li>
+                <!-- <li>
+                    <a href="#" class="serv-btn">Services
+                      <span class="fas fa-caret-down second"></span>
+                    </a>
+                   <ul class="serv-show">
+                        <li><a href="#">App Design</a></li>
+                        <li><a href="#">Web Design</a></li>
+                    </ul> 
+                </li>-->
+                <li class="mobile"><a href="#">ВАКАНСИИ</a></li>
+                <li class="mobile"><a href="#">КОНТАКТЫ</a></li>
+                <li class="mobile"><a href="#" class="items tender-invite">ПРИГЛАСИТЬ НА ТЕНДЕР</a></li>
+
+            </ul>
+            <div class="copyright ">
+                <p>© 2024г. ИП Милосердов Аркадий Викторович</p>
+                <p>Все авторские права защищены</p>
+            </div>
+        </nav>
+
+        <!-- МЕНЮ ПО УМОЛЧАНИЮ -->
+        <a href="#" class="header__logo logo">
+            <img src="./img/block_header/logo.svg" alt="logo">
+        </a>
+
+        <nav class="header__nav">
+
+            <ul class="header__list">
+
+                <li class="header__item"><a href="#" class="items">О НАС</a>
+                    <div class="nav__arrow arrow"></div>
+                    <ul class="submenu">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Автопарк</a></li>
+                        <li><a href="#">Новости</a></li>
+                    </ul>
+                </li>
+                <li class="header__item"><a href="../ГЛАВНАЯ СТРАНИЦА/index.html" class="items">ГЛАВНАЯ</a></li>
+                <li class="header__item"><a href="#" class="items">КОНТАКТЫ</a></li>
+                <li class="header__item">
+                    <a href="#" class="items button-tender">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span> ПРИГЛАСИТЬ НА ТЕНДЕР</a>
+                </li>
+                <li class="header__item"><a href="tel:+74957965737" class="items">+7 495 796 57 37</a></li>
+
+            </ul>
+        </nav>
+        </div>
+
+    </header>
+
+
+
+    <!--Главный блок, начало-->
+    <section>
+        <div class="preview">
+            <div class="main">
+                <div class="main__image">
+                    <div class="faw">
+                        <img src="./img/block_preview/faw2.png" class="faw__img" alt="faw">
+                    </div>
+                </div>
+
+                <div class="main__text">
+                    <h1 class="main__title">Безопасные и своевременные доставки с нашей логистической компанией: <span class="highlight-preview">эффективность для вашего бизнеса</span> </h1>
+                    <p class="main__desc">Мы стремимся к тому, чтобы наши клиенты могли полностью доверять нам свои грузы, зная, что они будут доставлены вовремя и в целости.</p>
+                    <div class="preview__arrow-preview" onclick="location.href='#statistics'"></div>
+                    <div class="preview__line line"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--О компании-->
+    <section id="about">
+        <h1 class="about__title">О компании</h1>
+        <div class="about__all">
+
+            <div class="about__text">
+                <div class="about__line"></div>
+                <h3 class="about__desc">
+                    <span class="bold">IPMLogistic</span> начала свой путь <span class="bold">14 июля 2017 года</span>, когда была приобретена первая газель, и с того дня остается верной <span class="highlight">своим принципам</span>. </h3>
+                <p class="about__desc2">Наша компания регулярно обновляет и модернизирует свой автопарк, чтобы гарантировать надежную и безопасную доставку грузов и контролировать каждый этап доставки.</p>
+            </div>
+            <div class="about__image">
+                <img src="./img/block_about/faw2.png" alt="faw">
+            </div>
+        </div>
+    </section>
+
+    <!-- Статистика-->
+
+    <!-- <section id="statistics" , class="statistics">
+        <div class="statistic__wrapper">
+            <div class="statistics_row">
+                <div class="statistics_item">
+                    <h1 class="statistics_header">700+</h1>
+                    <p class="statistics_text">интернациональных компаний уже работают с нами</p>
+                </div>
+                <div class="statistics_item">
+                    <h1 class="statistics_header">50</h1>
+                    <p class="statistics_text">филиалов во всех крупных городах России</p>
+                </div>
+                <div class="statistics_item">
+                    <h1 class="statistics_header">750+</h1>
+                    <p class="statistics_text">фур ежедневно</p>
+                </div>
+            </div>
+            <div class="statistics_row">
+                <div class="statistics_item">
+                    <h1 class="statistics_header">16 000</h1>
+                    <p class="statistics_text">рейсов совершили</p>
+                </div>
+                <div class="statistics_item">
+                    <h1 class="statistics_header">35 000</h1>
+                    <p class="statistics_text">грузов доставили</p>
+                </div>
+                <div class="figure">
+
+                    <img src="./img/block_statistics/triangle.png" alt="triangle">
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+
+    <!-- Слайдер-->
+    <!-- <section class="picture-slide">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30" centered-slides="true" autoplay-delay="8800" autoplay-disable-on-interaction="false">
+            <swiper-slide><img src="./img/block_picture-slide/road_faw.svg" alt="road"></swiper-slide>
+            <swiper-slide><img src="./img/block_picture-slide/road_faw.svg" alt="road"></swiper-slide>
+            <swiper-slide><img src="./img/block_picture-slide/road_faw.svg" alt="road"></swiper-slide>
+            <swiper-slide><img src="./img/block_picture-slide/road_faw.svg" alt="road"></swiper-slide>
+            <swiper-slide><img src="./img/block_picture-slide/road_faw.svg" alt="road"></swiper-slide>
+
+        </swiper-container>
+    </section> -->
+
+
+    <!-- Наши принципы-->
+    <!-- <section class="principle">
+        <div class="principle__title">
+            <div class="principle_line line3"></div>
+            <h1>Продуманные решения для вашей логистики: <span class="highlight2">доверьтесь опыту и надежности</span></h1>
+            <img src="./img/block_principle/triangle.png" alt="triangle2">
+        </div>
+        <div class="principle__wrapper">
+            <div class="principle_item">
+                <div class="principle_text">
+                    <div class="num">01</div>
+                    <h1 class="word">В <span class="highlight3">НУЖНОЕ</span> ВРЕМЯ</h1>
+                    <p>В управлении более 700 единиц техники разной грузоподъемностью, что позволяет осуществлять перевозку товаров в кратчайшие сроки с соблюдением всех требований к доставке.</p>
+                </div>
+                <div class="principle_img">
+                    <img src="./img/block_principle/faw.png" alt="faw3">
+                </div>
+            </div>
+            <div class="principle__wrapper">
+                <div class="principle_item">
+                    <div class="principle_text">
+                        <div class="num">02</div>
+                        <h1 class="word">В <span class="highlight3">НУЖНОМ</span> МЕСТЕ</h1>
+
+                        <p><span class="highlight4">Глобальное покрытие:</span> обеспечение доставки грузов в любую точку России.</p>
+                    </div>
+                    <div class="principle_img">
+                        <img src="./img/block_principle/faw.png" alt="faw3">
+                    </div>
+                </div>
+                <div class="principle__wrapper">
+                    <div class="principle_item">
+                        <div class="principle_text">
+                            <div class="num">03</div>
+                            <h1 class="word"><span class="highlight3">ВСЕГДА</span></h1>
+                            <p><span class="highlight4">Гарантия непрерывности обслуживания:</span> обеспечение работы 24/7 для оперативного реагирования на потребности клиентов.</p>
+                        </div>
+
+                        <div class="principle_img">
+                            <img src="./img/block_principle/faw.png" alt="faw3">
+                        </div>
+                    </div>
+                </div>
+    </section> -->
+
+
+    <!-- Строгие сроки доставки-->
+    <!-- <section class="timing">
+        <h1 class="timing_title">Строгие сроки доставки</h1>
+
+        <div class="timing_line line4"></div>
+        <div class="timing_text">
+            <img src="./img/block_timing/left triangle.png" alt="left triangle" class="img1">
+
+            <p>Оптимизация логистических процессов и использование <span class="highlight5">современных методов планирования и мониторинга.</span></p>
+            <p class="p2">Точное соблюдение временных рамок, <span class="highlight5">даже  при сложных условиях и длинных маршрутах.</span></p>
+            <img src="./img/block_timing/right triangle.png" alt="right triangle" class="img2">
+        </div>
+
+    </section> -->
+
+
+    <!-- Федеральное покрытие-->
+    <section class="federal">
+        <h1 class="federal_title">Федеральное покрытие</h1>
+        <div class="federal_wrapper wrapper">
+            <div class="federal_item">
+                <div class="federal_icon">
+                    <img src="./img/block_federal/icon_location.svg" alt="left icon">
+                </div>
+                <h1>50</h1>
+                <p><span class="highlight6">отделов продаж</span></p>
+            </div>
+
+            <div class="federal_item">
+                <div class="federal_icon">
+                    <img src="./img/block_federal/icon_location.svg" alt="left icon">
+                </div>
+                <h1>30</h1>
+                <p>центров управления водительским составом</p>
+            </div>
+        </div>
+
+        <div class="map-wrapper">
+            <div class="map" id="map"></div>
+            <div class="advantages">
+                <h1>IPM Logistic <span class="highlight7">ценит</span> Ваше время</h1>
+                <img src="./img/block_federal/advantages.png" alt="advantages">
+            </div>
+        </div>
+    </section>
+
+    <!-- Нам доверили свои грузы-->
+    <section class="agents">
+        <h1>Нам <span class="highlight8">доверили</span> свои грузы</h1>
+
+        <div class="slider-wrap">
+            <div class="slider">
+                <div class="slider-item">
+                    <div class="img-div"><img src="./img/block_agents/logotypes.svg" alt="logotypes"></div>
+                </div>
+                <div class="slider-item">
+                    <div class="img-div"><img src="./img/block_agents/logotypes.svg" alt="logotypes"></div>
+                </div>
+                <div class="slider-item">
+                    <div class="img-div"><img src="./img/block_agents/logotypes.svg" alt="logotypes"></div>
+                </div>
+                <div class="slider-item">
+                    <div class="img-div"><img src="./img/block_agents/logotypes.svg" alt="logotypes"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Актуальное-->
+    <section class="actual">
+        <h1><span class="highlight9">Актуальное</span> сейчас</h1>
+        <div class="actual_cards">
+            <div class="cards_item">
+                <article class="card">
+                    <div class="card_content">
+                        <div class="card_icon">
+                            <img src="./img/block_actual/icon1.png" alt="icon">
+                        </div>
+                        <h3 class="card_title">Контакты</h3>
+                        <p class="card_descr">Связь с нашей компанией и предложения о партнерстве</p>
+                        <button class="card_btn">Посмотреть</button>
+                    </div>
+                </article>
+            </div>
+
+            <div class="cards_item">
+                <article class="card">
+                    <div class="card_content">
+                        <div class="card_icon">
+                            <img src="./img/block_actual/icon2.png" alt="icon">
+                        </div>
+                        <h3 class="card_title">О компании</h3>
+                        <p class="card_descr">Наша история, философия, бизнес-идея и ценности</p>
+                        <button class="card_btn">Посмотреть</button>
+                    </div>
+                </article>
+            </div>
+
+            <div class="cards_item">
+                <article class="card">
+                    <div class="card_content">
+                        <div class="card_icon">
+                            <img src="./img/block_actual/icon3.png" alt="icon">
+                        </div>
+                        <h3 class="card_title">Вакансии</h3>
+                        <p class="card_descr">Найдите свою вакансию в одном из 50 городов России</p>
+                        <button class="card_btn">Посмотреть</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Новости-->
+    <section class="news">
+        <h1>Новости</h1>
+
+        <div class="news_cards">
+
+            <i id="left" class="fa-solid fa-angle-left"></i>
+
+            <ul class="news_item">
+                <li class="card_for_news">
+                    <img class="news_img_card" src="./img/block_news/faw.jpeg" alt="faw">
+                    <div class="news_card_top">
+                        <div class="info_flag">
+                            <h3>НОВЫЕ ФУРЫ FAW</h3>
+                        </div>
+
+                        <div class="news_card_icon">
+                            <img src="./img/block_news/icon_news.svg" alt="icon">
+                        </div>
+                    </div>
+
+                    <p class="news_card_descr">IPM Logistic принял новые фуры </p>
+                    <a href="#">БОЛЬШЕ</a>
+                </li>
+
+                <li class="card_for_news">
+                    <img class="news_img_card" src="./img/block_news/faw.jpeg" alt="faw">
+                    <div class="news_card_top">
+                        <div class="info_flag">
+                            <h3>ОБЗОР НА НОВЫЙ ТЯГАЧ</h3>
+                        </div>
+
+                        <div class="news_card_icon">
+                            <img src="./img/block_news/icon_news.svg" alt="icon">
+                        </div>
+                    </div>
+
+                    <p class="news_card_descr">Обзор на новый тягач от FAW </p>
+                    <a href="#">БОЛЬШЕ</a>
+                </li>
+
+                <li class="card_for_news">
+                    <img class="news_img_card" src="./img/block_news/faw.jpeg" alt="faw">
+                    <div class="news_card_top">
+                        <div class="info_flag">
+                            <h3>НОВЫЕ ФУРЫ FAW</h3>
+                        </div>
+
+                        <div class="news_card_icon">
+                            <img src="./img/block_news/icon_news.svg" alt="icon">
+                        </div>
+                    </div>
+
+                    <p class="news_card_descr">IPM Logistic принял новые фуры </p>
+                    <a href="#">БОЛЬШЕ</a>
+                </li>
+            </ul>
+
+
+            <i id="right" class="fa-solid fa-angle-right"></i>
+
+        </div>
+    </section>
+
+
+    <!-- Подвал-->
+    <footer>
+        <div class="row">
+
+            <div class="col">
+                <img src="./img/block_footer/LOGO.svg" alt="logo" class="footer__logo">
+                <div class="copyright">
+                    <p>© 2024г. ИП Милосердов Аркадий Викторович</p>
+                    <p>Все авторские права защищены</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <h3 class="footer_title">Связаться с нами<span class="footer_arrow">↓</span></h3>
+                <p class="footer_descr"><a href="#">sales@ipmlogist.ru</a></p>
+                <p class="footer_descr"><a href="tel:+74957965737">+7 495 796 57 37</a></p>
+            </div>
+
+            <div class="col">
+                <h3 class="footer_title">Юр.адрес</h3>
+                <p class="footer_descr">г. Москва, Метро. Румянцево, ул. 22 километр Киевское шоссе, вл 4 блок А</p>
+            </div>
+
+            <div class="col">
+                <img src="./img/block_footer/triangle.png" class="footer_triangle" alt="triangle">
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./JavaScript/header-mobile.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?&lang=ru_RU" type="text/javascript"></script>
+    <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./JavaScript/header.js"></script>
+    <script src="./JavaScript/header/sidebar.js"></script>
+    <script type="text/javascript" src="../ГЛАВНАЯ СТРАНИЦА/JavaScript/main.js"></script>
+    <script src="../ГЛАВНАЯ СТРАНИЦА/JavaScript/panel.js"></script>
+    <script src="../ГЛАВНАЯ СТРАНИЦА/JavaScript/sidebar.js"></script>
+    <script src="../ГЛАВНАЯ СТРАНИЦА/JavaScript/scroll.js"></script>
+    <script src="../ГЛАВНАЯ СТРАНИЦА/JavaScript/actual.js"></script>
+    <script src="../ГЛАВНАЯ СТРАНИЦА/JavaScript/carousel-actual.js"></script>
+
+    <script src="../ГЛАВНАЯ СТРАНИЦА/JavaScript/scroll-news.js"></script>
+    <script src="../ГЛАВНАЯ СТРАНИЦА/JavaScript/news-slider.js"></script>
+
+
+</body>
+
+</html>
