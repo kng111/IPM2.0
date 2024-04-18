@@ -110,4 +110,13 @@
         .about__text {
             font-size: 80%;
         }
+        .about__title {
+            font-size: 30px;
+        }
+        .about__desc {
+            width: 157%;
+        }
+        .about__desc2 {
+            width: 157%;
+        }
     }
