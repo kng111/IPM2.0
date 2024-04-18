@@ -1,0 +1,72 @@
+@import url(./media/media-reviews.css);
+.reviews {
+    width: 100%;
+    height: auto;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.reviews-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-title h1 {
+    position: relative;
+    padding: 0 40px 0 40px;
+}
+
+.reviews-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-text {
+    background-color: rgb(38, 37, 42);
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    /* padding: 40px 115px; */
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    max-width: 703px;
+    width: 100%;
+}
+
+.highlight2 {
+    color: red;
+}
+
+.reviews-item img {
+    max-width: 236px;
+    padding: 32px;
+}
+
+.reviews-item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.rev-descr {
+    margin-bottom: 20px;
+}
+
+.rev-profession {
+    color: white;
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: smaller;
+    padding-top: 5px;
+}
+
+.rev-name,
+.rev-profession {
+    margin: 0;
+}
+
+.rev-name {
+    font-weight: bold;
+}

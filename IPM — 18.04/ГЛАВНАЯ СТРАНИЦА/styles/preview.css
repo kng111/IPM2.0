@@ -1,0 +1,150 @@
+.preview {
+    position: relative;
+}
+
+
+/* .main {
+    display: flex;
+    align-items: center;
+}
+
+.main__image {
+    flex: 0 0 auto;
+    max-width: 50%;
+    display: flex;
+    margin-left: -20%;
+    animation: slideInImage 1s ease forwards;
+} */
+
+.highlight-preview {
+    color: rgb(184, 0, 6);
+    max-width: 300px;
+}
+
+.faw__img {
+    max-width: 100%;
+    margin-right: 0;
+    position: static;
+    margin-top: 20px;
+}
+
+.main__text {
+    position: relative;
+    margin-top: 1%;
+    margin-right: 59px;
+    animation: slideInText 1s ease forwards;
+}
+
+@keyframes slideInImage {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInText {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* .main__title {
+    font-size: 242%;
+    max-width: 805px;
+}
+
+.main__subtitle {
+    font-weight: 700;
+    color: brown;
+    font-size: 242%;
+    max-width: 805px;
+    margin-top: -22px;
+} */
+
+.main__desc {
+    margin-top: 7%;
+    max-width: 329px;
+    font-size: 112%;
+    line-height: 1.4;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.main__image {
+    flex: 1 1 50%;
+    margin-left: -20%;
+}
+
+.faw__img {
+    width: 100%;
+    /* Адаптивная ширина изображения */
+}
+
+.main__text {
+    flex: 1 1 50%;
+    position: relative;
+    padding: 20px;
+}
+
+.main__title,
+.main__subtitle {
+    word-wrap: break-word;
+    /* Перенос слов для предотвращения выхода текста за пределы */
+    margin: 10px 0;
+}
+
+.main__desc {
+    margin-top: 7%;
+    max-width: 296px;
+    font-size: 112%;
+    line-height: 1.4;
+}
+
+.preview__arrow-preview {
+    position: absolute;
+    bottom: 14px;
+    left: 67%;
+    transform: translateX(-50%);
+    /* width: 90px;
+    height: 90px; */
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview__arrow-preview::before {
+    content: "";
+    position: absolute;
+    width: 29%;
+    height: 48%;
+    background-image: url(../img/block_preview/arrow-preview.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.preview__line {
+    position: absolute;
+    right: -54px;
+    top: 0;
+    height: 100%;
+    border-left: 1px solid black;
+}
